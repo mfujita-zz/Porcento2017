@@ -9,7 +9,7 @@ namespace Porcentagem2017
 {
     public partial class Lucas : System.Web.UI.Page
     {
-        private string ra
+        private string ra;
         protected void Page_Load(object sender, EventArgs e)
         {
             ra = Request.QueryString["ra"];

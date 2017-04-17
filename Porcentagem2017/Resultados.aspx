@@ -8,7 +8,7 @@
 
 <asp:Content ID="ContentPlaceHolder2" ContentPlaceHolderID="conteudo" runat="server">
     <asp:Label ID="exibicao" runat="server" Text="Resultados dos exercícios"></asp:Label>
-    <p> <%= getRA() %> </p>
+    <p>RA <%= getRA() %> </p>
     <asp:PlaceHolder ID="conteudo" runat="server"></asp:PlaceHolder>
     <p></p>
         <%--<asp:Table ID="tabela1" runat="server" Font-Size="Larger" BorderWidth="1" Width="100%" GridLines="Both" BorderStyle="Solid" CellPadding="4">

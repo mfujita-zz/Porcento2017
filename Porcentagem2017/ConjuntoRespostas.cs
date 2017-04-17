@@ -12,8 +12,8 @@ namespace Porcentagem2017
         public List<string> getRespostas()
         {
             listaRespostas.Clear();
-            listaRespostas.Add("1,0575%");
-            listaRespostas.Add("0,918%");
+            listaRespostas.Add("1,0575");
+            listaRespostas.Add("0,918");
             listaRespostas.Add("2400 litros");
             listaRespostas.Add("45,71%");
             listaRespostas.Add("375,00");

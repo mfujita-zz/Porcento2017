@@ -33,8 +33,9 @@ namespace Porcentagem2017
 
             using (SqlConnection con = new SqlConnection("Server=SAMSUNG-SERIE-9\\SQLEXPRESS; Database=gincana; Trusted_Connection=True;"))
             {
-                using (SqlCommand cmd = new SqlCommand("insert into Tporcentagem (respAluno, gabarito, pontuacao, ra_jogador, duracao) values (@RESPALUNO, @GABARITO, @PONTUACAO, @RA_JOGADOR, @DURACAO)", con))
+                using (SqlCommand cmd = new SqlCommand("insert into Tporcentagem (num_questao, respAluno, gabarito, pontuacao, ra_jogador, duracao) values (@NUM_QUESTAO, @RESPALUNO, @GABARITO, @PONTUACAO, @RA_JOGADOR, @DURACAO)", con))
                 {
+                    cmd.Parameters.AddWithValue("NUM_QUESTAO", "5");
                     cmd.Parameters.AddWithValue("RESPALUNO", txtResp5.Text.Trim());
                     cmd.Parameters.AddWithValue("GABARITO", cr.getRespostas()[3]);
                     if (txtResp5.Text.Trim().Equals(cr.getRespostas()[4]))

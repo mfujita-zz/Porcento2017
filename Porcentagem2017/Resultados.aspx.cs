@@ -23,7 +23,7 @@ namespace Porcentagem2017
 
                 html.Append("<table border=1>");
                 html.Append("<tr>");
-                html.Append("<th>Sua resposta</th><th>Pontuação</th><th>Tempo da sua solução</th>");
+                html.Append("<th>#</th><th>Sua resposta</th><th>Pontuação</th><th>Tempo da sua solução</th>");
                 html.Append("</tr>");
 
                 foreach (DataRow linha in dt.Rows)
@@ -48,7 +48,7 @@ namespace Porcentagem2017
 
             using (SqlConnection con = new SqlConnection("Server=SAMSUNG-SERIE-9\\SQLEXPRESS; Database=gincana; Trusted_Connection=True;"))
             {
-                using (SqlCommand cmd = new SqlCommand("select respAluno as Resposta, pontuacao, duracao as Tempo from Tporcentagem where ra_jogador = " + ra, con))
+                using (SqlCommand cmd = new SqlCommand("select num_questao as Num, respAluno as Resposta, pontuacao, duracao as Tempo from Tporcentagem where ra_jogador = " + ra, con))
                 {
                     using (SqlDataAdapter sda = new SqlDataAdapter())
                     {

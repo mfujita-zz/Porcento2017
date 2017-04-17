@@ -7,7 +7,7 @@
 
 <asp:Content ID="conteudo" ContentPlaceHolderID="conteudo" runat="server">
     <asp:Label ID="q3" runat="server" Text="Questão 3 -"></asp:Label>
-    <strong><%= getPonto() %></strong>
+    <strong><%= getPonto() %> pontos</strong>
     <p>Um certo tipo de avião consome, em média, 1.920 litros de combustível apenas para decolar e pousar. Sabendo-se que isso representa 80% de todo combustível que ele gasta em uma viagem entre as cidades A e B, é correto afirmar que o número de litros consumidos numa dessas viagens é:</p>
     <p>Observação: Caso a resposta seja maior ou igual a mil, não é preciso usar ponto como separador de milhar. Exemplo: Use 1000 litros e não 1.000 litros.</p>
     <p>Resposta padrão: 10 litros (um número seguido de espaço e a palavra litros).</p>

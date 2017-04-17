@@ -11,7 +11,7 @@
     <strong><%= getPontos() %> ponto</strong>
     <p>Exercício sobre fator de acréscimo. Para aumentar em 5,75% deve-se multiplicar o valor inicial por:</p>
     <p>Observação: 2 casas decimais.</p>
-    <p>Padrão de resposta: 1,01% (vírgula e sinal de %).</p>
+    <p>Padrão de resposta: 0,00 (vírgula separando inteiro de decimal).</p>
     <asp:TextBox ID="txtResp1" runat="server" Font-Size="30pt"></asp:TextBox>
     <p />
     <asp:Button ID="btn1_2" runat="server" Text="Ir para questão 2" Font-Size="30pt" OnClick="btn1_2_Click" />
