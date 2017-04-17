@@ -99,14 +99,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Amanda.aspx" />
+    <Content Include="AndreaGati.aspx" />
+    <Content Include="AndreaLeoni.aspx" />
+    <Content Include="Andreza.aspx" />
+    <Content Include="Camila.aspx" />
+    <Content Include="Caroline.aspx" />
     <Content Include="css\estilo.css" />
     <Content Include="css\idAlunos.css" />
+    <Content Include="EduardoLima.aspx" />
+    <Content Include="EduardoOliveira.aspx" />
+    <Content Include="Felipe.aspx" />
+    <Content Include="Fernanda.aspx" />
+    <Content Include="Gabriel.aspx" />
+    <Content Include="Gabriele.aspx" />
+    <Content Include="Giovane.aspx" />
+    <Content Include="Gislaine.aspx" />
     <Content Include="inicio.aspx" />
+    <Content Include="Janaina.aspx" />
+    <Content Include="Larissa.aspx" />
+    <Content Include="Lucas.aspx" />
+    <Content Include="NathaliaForato.aspx" />
+    <Content Include="NathaliaPrajo.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Estrutura.Master" />
+    <Content Include="Paloma.aspx" />
+    <Content Include="Patricia.aspx" />
+    <Content Include="Paula.aspx" />
     <Content Include="Questao2.aspx" />
     <Content Include="Questao1.aspx" />
     <Content Include="Questao4.aspx" />
@@ -121,6 +142,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Thais.aspx" />
+    <Content Include="Valeria.aspx" />
+    <Content Include="Victoria.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -131,13 +155,104 @@
     <Compile Include="Amanda.aspx.designer.cs">
       <DependentUpon>Amanda.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AndreaGati.aspx.cs">
+      <DependentUpon>AndreaGati.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AndreaGati.aspx.designer.cs">
+      <DependentUpon>AndreaGati.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AndreaLeoni.aspx.cs">
+      <DependentUpon>AndreaLeoni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AndreaLeoni.aspx.designer.cs">
+      <DependentUpon>AndreaLeoni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Andreza.aspx.cs">
+      <DependentUpon>Andreza.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Andreza.aspx.designer.cs">
+      <DependentUpon>Andreza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Camila.aspx.cs">
+      <DependentUpon>Camila.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Camila.aspx.designer.cs">
+      <DependentUpon>Camila.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caroline.aspx.cs">
+      <DependentUpon>Caroline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caroline.aspx.designer.cs">
+      <DependentUpon>Caroline.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConjuntoRespostas.cs" />
+    <Compile Include="EduardoLima.aspx.cs">
+      <DependentUpon>EduardoLima.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EduardoLima.aspx.designer.cs">
+      <DependentUpon>EduardoLima.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EduardoOliveira.aspx.cs">
+      <DependentUpon>EduardoOliveira.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EduardoOliveira.aspx.designer.cs">
+      <DependentUpon>EduardoOliveira.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Estrutura.Master.cs">
       <DependentUpon>Estrutura.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Estrutura.Master.designer.cs">
       <DependentUpon>Estrutura.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Felipe.aspx.cs">
+      <DependentUpon>Felipe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Felipe.aspx.designer.cs">
+      <DependentUpon>Felipe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fernanda.aspx.cs">
+      <DependentUpon>Fernanda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fernanda.aspx.designer.cs">
+      <DependentUpon>Fernanda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gabriel.aspx.cs">
+      <DependentUpon>Gabriel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gabriel.aspx.designer.cs">
+      <DependentUpon>Gabriel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gabriele.aspx.cs">
+      <DependentUpon>Gabriele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gabriele.aspx.designer.cs">
+      <DependentUpon>Gabriele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Giovane.aspx.cs">
+      <DependentUpon>Giovane.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Giovane.aspx.designer.cs">
+      <DependentUpon>Giovane.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gislaine.aspx.cs">
+      <DependentUpon>Gislaine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gislaine.aspx.designer.cs">
+      <DependentUpon>Gislaine.aspx</DependentUpon>
     </Compile>
     <Compile Include="inicio.aspx.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
@@ -146,7 +261,63 @@
     <Compile Include="inicio.aspx.designer.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Janaina.aspx.cs">
+      <DependentUpon>Janaina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Janaina.aspx.designer.cs">
+      <DependentUpon>Janaina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Larissa.aspx.cs">
+      <DependentUpon>Larissa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Larissa.aspx.designer.cs">
+      <DependentUpon>Larissa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lucas.aspx.cs">
+      <DependentUpon>Lucas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lucas.aspx.designer.cs">
+      <DependentUpon>Lucas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ManipulaTempo.cs" />
+    <Compile Include="NathaliaForato.aspx.cs">
+      <DependentUpon>NathaliaForato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NathaliaForato.aspx.designer.cs">
+      <DependentUpon>NathaliaForato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NathaliaPrajo.aspx.cs">
+      <DependentUpon>NathaliaPrajo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NathaliaPrajo.aspx.designer.cs">
+      <DependentUpon>NathaliaPrajo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paloma.aspx.cs">
+      <DependentUpon>Paloma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paloma.aspx.designer.cs">
+      <DependentUpon>Paloma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patricia.aspx.cs">
+      <DependentUpon>Patricia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patricia.aspx.designer.cs">
+      <DependentUpon>Patricia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paula.aspx.cs">
+      <DependentUpon>Paula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paula.aspx.designer.cs">
+      <DependentUpon>Paula.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questao2.aspx.cs">
       <DependentUpon>Questao2.aspx</DependentUpon>
@@ -189,6 +360,27 @@
     </Compile>
     <Compile Include="Questao3.aspx.designer.cs">
       <DependentUpon>Questao3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Thais.aspx.cs">
+      <DependentUpon>Thais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Thais.aspx.designer.cs">
+      <DependentUpon>Thais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Valeria.aspx.cs">
+      <DependentUpon>Valeria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Valeria.aspx.designer.cs">
+      <DependentUpon>Valeria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Victoria.aspx.cs">
+      <DependentUpon>Victoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Victoria.aspx.designer.cs">
+      <DependentUpon>Victoria.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

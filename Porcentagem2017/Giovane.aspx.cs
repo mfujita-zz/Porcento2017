@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Porcentagem2017
 {
-    public partial class Amanda : System.Web.UI.Page
+    public partial class Giovane : System.Web.UI.Page
     {
         private string ra;
         protected void Page_Load(object sender, EventArgs e)

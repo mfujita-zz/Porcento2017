@@ -23,7 +23,7 @@ namespace Porcentagem2017
 
                 html.Append("<table border=1>");
                 html.Append("<tr>");
-                html.Append("<th>#</th><th>Sua resposta</th><th>Pontuação</th><th>Tempo da sua solução</th>");
+                html.Append("<th>Sua resposta</th><th>Pontuação</th><th>Tempo da sua solução</th>");
                 html.Append("</tr>");
 
                 foreach (DataRow linha in dt.Rows)
@@ -62,6 +62,11 @@ namespace Porcentagem2017
                     }
                 }
             }
+        }
+
+        public string getRA()
+        {
+            return ra;
         }
     }
 }

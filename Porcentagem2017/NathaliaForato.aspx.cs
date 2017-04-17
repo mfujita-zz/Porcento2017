@@ -7,9 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Porcentagem2017
 {
-    public partial class Amanda : System.Web.UI.Page
+    public partial class NathaliaForato : System.Web.UI.Page
     {
-        private string ra;
+        private string ra
         protected void Page_Load(object sender, EventArgs e)
         {
             ra = Request.QueryString["ra"];
