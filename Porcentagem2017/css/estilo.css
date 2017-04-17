@@ -1,0 +1,73 @@
+﻿@media only screen and (min-width: 320px) and (max-width: 640px) {
+    body {
+        margin: 0;
+        /*background-image : linear-gradient(45deg, #f1f156, #fbfbff);*/
+        background-color: lightgoldenrodyellow;
+        font-size: 30px;
+        height: 800px;
+    }
+
+    .topo {
+        max-width: 100%; /*Desde que a largura da figura seja maior do que espaço que ela ocupaá, max-width estica preenchendo o espaço.*/ 
+        width:640px;
+        height:300px;
+        /*background-color:red;*/
+    }
+
+    .conteudo {
+        width: 640px;
+        height: 300px;
+        /*background-color: yellow;*/
+    }
+
+    .rodape {
+        width: 640px;
+        height:40px;
+        /*background-color:aquamarine;*/
+    }
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 720px) {
+    body {
+        margin: 0;
+        background-color: lightblue;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .topo {
+        max-width: 100%;
+    }
+
+    .conteudo {
+        width: 720px;
+    }
+
+    .rodape {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    body {
+        margin: 0;
+        background-color: darkorange;
+        width:1280px;
+        text-align: justify;
+        font-size: 30pt;
+    }
+
+    .topo {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 720px;
+        height: 1000px;
+    }
+
+    .rodape {
+        width: 720px;
+    }
+}

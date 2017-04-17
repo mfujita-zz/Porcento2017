@@ -1,0 +1,15 @@
+Exercício sobre fator de acréscimo. Para aumentar em 5,75% deve-se multiplicar o valor inicial por:
+1,0575%
+
+Exercício sobre fator de decréscimo. Para descontar 8,2% deve multiplicar o valor inicial por:
+0,918%
+
+Um certo tipo de avião consome, em média, 1.920 litros de combustível apenas para decolar e pousar. Sabendo-se que isso representa 80% de todo combustível que ele gasta em uma viagem entre as cidades A e B, é correto afirmar que o número de litros consumidos numa dessas viagens é:
+2400l
+
+Três amigos decidiram ficar com a mesma quantia de dinheiro. O primeiro tinha R$ 220,00, o segundo tinha R$ 350,00 e o terceiro nenhum centavo. Qual a porcentagem de dinheiro dado pela segunda pessoa que tinha inicialmente R$ 350,00?
+Resposta: 45,7%
+
+Um salário é distribuído entre 4 despesas: moradia, alimentação, vestuário e transporte. A pessoa gasta 1/4 do salário com moradia, 35% do salário com alimentação, R$ 400,00 com vestuário e R$ 200,00 transporte. Então a despesa com moradia é igual a:
+Resposta: R$ 375,00
+

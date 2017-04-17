@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Estrutura.master.cs" Inherits="Porcentagem2017.Estrutura" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="css/estilo.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form class="RAaluno" runat="server">
+
+        <div class="titulo">
+            <asp:ContentPlaceHolder ID="titulo" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            
+
+        <div class="conteudo">
+            <asp:ContentPlaceHolder ID="conteudo" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="rodape">
+            <asp:ContentPlaceHolder ID="rodape" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

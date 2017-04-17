@@ -1,0 +1,15 @@
+﻿body {
+    background-color: yellow;
+}
+
+#aluno {
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#confirmar {
+    font-size: 30pt;
+}
+
+
