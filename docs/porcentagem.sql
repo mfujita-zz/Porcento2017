@@ -1,4 +1,10 @@
 select * from alunos
+create table alunos (
+  ra varchar(9),
+  nasc varchar(10),
+  nome varchar(50),
+  mail varchar(40)
+)
 
 create table Tporcentagem (
   id_pergunta int identity not null,
@@ -20,5 +26,9 @@ select nome from alunos where ra = 170000750
 drop table Tporcentagem
 truncate table Tporcentagem
 
-select num_questao, nome, respAluno, pontuacao from Tporcentagem, alunos
-where alunos.ra = Tporcentagem.ra_jogador and alunos.ra = 170000750
+select num_questao, nome, respAluno, gabarito, pontuacao from Tporcentagem, alunos
+where alunos.ra = Tporcentagem.ra_jogador and alunos.ra = 170000759
+
+select nome, respAluno, gabarito, pontuacao from Tporcentagem, alunos where respAluno like '%.%' and alunos.ra = Tporcentagem.ra_jogador
+
+
